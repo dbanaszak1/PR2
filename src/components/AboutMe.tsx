@@ -5,6 +5,9 @@ const AboutMe = () => {
 
   return (
   <div className='w-5/6 m-auto relative pt-16 max-w-[940px] border-b-[1px] border-gray-300 pb-6'>
+    <div className='md:absolute mb-2 m-auto h-32 w-32 border-2 right-0 rounded-full bg-cover' style={{backgroundImage: `url()`}}>
+
+    </div>
     <div className='flex items-center text-sm font-alkatra'>
       <div className='animate-pulse bg-green-600 w-2 h-2 rounded-full mx-2 -translate-y-[2px]'></div>
       <span>Online.</span>
