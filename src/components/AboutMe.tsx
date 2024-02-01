@@ -5,7 +5,7 @@ const AboutMe = () => {
 
   return (
   <div className='w-5/6 m-auto relative pt-16 max-w-[940px] border-b-[1px] border-gray-300 pb-6'>
-    <div className='md:absolute mb-2 m-auto h-32 w-32 border-2 right-0 rounded-full bg-cover' style={{backgroundImage: `url()`}}>
+    <div className='md:absolute mb-2 m-auto h-32 w-32 border-[1px] border-gray-700 right-0 rounded-full bg-cover' style={{backgroundImage: `url(https://github.com/dbanaszak1/PR2/blob/master/public/images/prof.jpg?raw=true)`}}>
 
     </div>
     <div className='flex items-center text-sm font-alkatra'>
@@ -20,11 +20,7 @@ const AboutMe = () => {
     <span className='font-alkatra text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Creative Student ready to work!</span>
     <div className='text-gray-400 lg:w-2/3'>
       <p>
-        I study Computer Science at Adam Mickiewicz University. I am actively
-          developing and gaining experience at my university. For over a year I
-          work as a freelancer learning and creating my personal projects. I am
-          very creative and cooperative. I enjoy teamwork and I hope I will
-          fit any team perfectly.
+      Currently studying Computer Science at Adam Mickiewicz University, I actively gain practical experience both on campus and as a freelancer. With over a year of freelancing, I've honed my creativity, fast-learning ability, and effective teamwork. Eager to contribute to innovative projects in the field, I am particularly interested in pursuing internships or employment opportunities focused on web development. I am enthusiastic about enhancing my skills and making meaningful contributions to the dynamic world of web technologies.
       </p>
     </div>
     <div className='flex my-4'>
