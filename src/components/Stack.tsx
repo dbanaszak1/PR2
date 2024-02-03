@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Stack = () => {
   return (
     <div className='w-5/6 m-auto flex flex-wrap border-b-[1px] border-gray-300 py-10 max-w-[940px]'>
