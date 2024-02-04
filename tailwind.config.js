@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         alkatra: ['Alkatra'],
+        blackops: ['Black Ops One']
       }
     },
   },

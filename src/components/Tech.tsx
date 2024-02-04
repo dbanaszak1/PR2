@@ -84,6 +84,7 @@ const Tech = () => {
     initial={{opacity:0, x:'-50%'}}
     whileInView={{opacity:1, x:'0'}}
     transition={{duration:1.5}}
+    viewport={{ once: true }}
         className='max-w-[940px] m-auto flex flex-wrap items-center justify-center mb-12 mt-10'>
     <h1 className='w-5/6 lg:w-full font-alkatra text-black text-2xl lg:text-4xl py-4'>Mostly uses:</h1>
     {tech.map((tech, index)=>(

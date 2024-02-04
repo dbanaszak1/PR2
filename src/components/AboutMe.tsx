@@ -1,10 +1,14 @@
-import React from 'react'
-import { useEffect, useRef } from 'react'
+import { motion } from 'framer-motion'
 
 const AboutMe = () => {
 
   return (
-  <div className='w-5/6 m-auto relative pt-16 max-w-[940px] border-b-[1px] border-gray-300 pb-6'>
+  <motion.div className='w-5/6 m-auto relative pt-16 max-w-[940px] border-b-[1px] border-gray-300 pb-6'
+  initial={{opacity:0, x:'-50%'}}
+  whileInView={{opacity:1, x:'0'}}
+  transition={{duration:1.5}}
+  viewport={{ once: true }}
+  >
     <div className='md:absolute mb-2 m-auto h-32 w-32 border-[1px] border-gray-700 right-0 rounded-full bg-cover' style={{backgroundImage: `url(https://github.com/dbanaszak1/PR2/blob/master/public/images/prof.jpg?raw=true)`}}>
 
     </div>
@@ -49,7 +53,7 @@ const AboutMe = () => {
    
     </div>  
 
-  </div>
+  </motion.div>
   )
 }
 
