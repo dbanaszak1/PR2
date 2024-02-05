@@ -22,8 +22,8 @@ const Projects = () => {
         title: 'SkyTravel',
         description: 'Only frontend app for "fake" travel agency.',
         stack: [ icons.react,icons.tailwind, icons.ts, icons.github],
-        image1: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/catapp1.png?raw=true',
-        image2: '',
+        image1: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/skytravel1.png?raw=true',
+        image2: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/skytravel2.png?raw=true',
       }]  
   
     return (

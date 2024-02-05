@@ -24,8 +24,9 @@ const App = () => {
       <Stack/>
       <Tech/>
     </motion.section>
-    <motion.section className='py-20' style={{background: 'black'}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2}} viewport={{ once: true }}>
-      <Projects/>      
+    <motion.section className='py-20' style={{background: 'black'}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2}}>
+      <Projects/>
+            
     </motion.section>
     <section className='py-20' ref={ref} style={{background: isInView ? 'white' : 'black', transition: '4s background'}}>
       <Slider/>
