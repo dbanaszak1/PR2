@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="flex flex-wrap w-5/6 max-w-[940px] m-auto border-t-[1px] py-10">
       <div className="md:w-1/3 py-4">
-        <div className="font-alkatra text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-4">
+        <div className="font-alkatra text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-4">
             Let's work together!
         </div>
         <div className='ml-4 text-2xl font-alkatra'>

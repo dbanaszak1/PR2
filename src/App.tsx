@@ -7,6 +7,7 @@ import { motion, useInView} from 'framer-motion'
 import { useEffect, useRef } from 'react'
 import Hello from './components/Hello'
 import Contact from './components/Contact'
+import Expect from './components/Expect'
 
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
       <Projects/>            
     </motion.section>
     <section className='py-20' ref={ref} style={{background: isInView ? 'white' : 'black', transition: '4s background'}}>
-      <Slider/>
+      <Expect/>
       <Contact/>
     </section>
     </>
