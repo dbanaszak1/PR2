@@ -9,20 +9,22 @@ const MailToForm = () => {
     const sendEmail = (e: any) => {
         e.preventDefault();
     
-        emailjs
-          .sendForm('service_wzytjgg', 'template_v2iepv8', form.current, {
-            publicKey: 'UYmoeHyYUxWguwz6T',
-          })
-          .then(
-            () => {
+        if (form.current) {
+          emailjs
+            .sendForm('service_wzytjgg', 'template_v2iepv8', form.current, {
+              publicKey: 'UYmoeHyYUxWguwz6T',
+            })
+            .then(
+              () => {
                 setSuccess(true);
-              console.log('SUCCESS!');
-            },
-            (error) => {
-              setError(true);
-              console.log('FAILED...', error);
-            },
-          );
+                console.log('SUCCESS!');
+              },
+              (error) => {
+                setError(true);
+                console.log('FAILED...', error);
+              },
+            );
+        }
       };
 
   return (

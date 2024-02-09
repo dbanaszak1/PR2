@@ -1,4 +1,3 @@
-import Slider from './components/Slider'
 import AboutMe from './components/AboutMe'
 import Stack from './components/Stack'
 import Tech from './components/Tech'
