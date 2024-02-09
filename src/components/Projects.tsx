@@ -58,7 +58,7 @@ const Projects = () => {
                   ))}
                   </div>
                 <img src='images/mac1.png' className='hidden md:block absolute  md:w-[806px] md:h-[420px] z-20 md:-translate-x-[104px] md:translate-y-52'/>    
-                <div className="w-full h-48 md:w-[600px] md:h-[320px] bg-cover z-10 my-6 md:absolute md:translate-y-52" style={{backgroundImage: `url(${project.image1})`}}></div>
+                <div className="w-full h-48 md:w-[600px] md:h-[320px] bg-cover z-10 my-6 md:absolute md:translate-y-52 rounded-xl shadow-2xl md:shadow-none shadow-purple-400" style={{backgroundImage: `url(${project.image1})`}}></div>
                 <div className="w-full shadow-2xl shadow-purple-400 h-48 md:w-[600px] md:h-[320px] md:translate-x-60 md:-translate-y- bg-cover absolute border-[1px] border-gray-400 rounded-xl" style={{backgroundImage: `url(${project.image2})`}}></div> 
             </motion.div>
         ))}
