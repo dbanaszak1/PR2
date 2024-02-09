@@ -61,7 +61,7 @@ const MailToForm = () => {
         type="submit"
         initial={{y: 100}}
         whileInView={{y: 0,transition: {type: "spring",bounce: 0.5,duration: 0.8, delay: 0.3}}}
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true }}
         >
             Send
         </motion.button>
