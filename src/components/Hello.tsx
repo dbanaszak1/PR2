@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import Animation3D from './Animation3D'
+
 const Hello = () => {
 
   return (
@@ -16,7 +16,7 @@ const Hello = () => {
                 
         </motion.div> 
         <div className="absolute md:w-[800px] z-10 md:-translate-x-6">
-            <Animation3D/>  
+          
         </div>
         
     </motion.div>
