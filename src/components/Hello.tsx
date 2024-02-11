@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-
+import Animation3D from './Animation3D'
 const Hello = () => {
 
   return (
@@ -12,11 +12,10 @@ const Hello = () => {
             transition={{duration:1.5}}
             viewport={{ once: true }}
             >
-                HELLO
-                
+                HELLO   
         </motion.div> 
         <div className="absolute md:w-[800px] z-10 md:-translate-x-6">
-          
+            <Animation3D/>  
         </div>
         
     </motion.div>

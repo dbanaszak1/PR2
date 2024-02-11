@@ -13,7 +13,11 @@ const tech = [
     {
         name: "ReactJS",
         svg: icons.react
-    },    
+    }, 
+    {
+      name: "NextJS",
+      svg: icons.next
+    },      
     {
       name: "VueJS",
       svg: icons.vue
@@ -41,9 +45,16 @@ const tech = [
     {
       name: "Python",
       svg: icons.python
-    },      
-
-      {
+    },
+    {
+      name: "HTML5",
+      svg: icons.html
+    },
+    {
+      name: "CSS3",
+      svg: icons.css
+    },            
+    {
         name: "Github",
         svg: icons.github
     },
@@ -78,13 +89,13 @@ const Tech = () => {
     {tech.map((tech, index)=>(
         <motion.div 
           key={index} 
-          className='text-black border-[1px] border-black w-36 h-36 m-2 rounded-xl flex justify-center flex-wrap shadow-2xl hover:scale-110 duration-200'
+          className='text-black border-[1px] border-black w-32 h-32 m-2 rounded-xl flex justify-center flex-wrap shadow-2xl hover:scale-110 duration-200'
           initial={{opacity:0}}
           whileInView={{opacity:1}}
           transition={{delay: index/4,duration:1.5}}
           viewport={{ once: true }}
           > 
-            <div className='w-24 h-24 pt-2'>{tech.svg}</div>
+            <div className='w-20 h-20 pt-2'>{tech.svg}</div>
             <div className='text-center w-full font-alkatra text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>{tech.name}</div>
         </motion.div>
     ))}        
