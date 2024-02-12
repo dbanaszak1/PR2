@@ -1,3 +1,4 @@
+import React from 'react';
 import MailToForm from './MailToForm'
 
 const Contact = () => {

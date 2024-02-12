@@ -1,3 +1,4 @@
+import React from 'react';
 import AboutMe from './components/AboutMe'
 import Stack from './components/Stack'
 import Tech from './components/Tech'
@@ -32,6 +33,7 @@ const App = () => {
       <Expect/>
       <Contact/>
     </section>
+    
     </>
   )
 }

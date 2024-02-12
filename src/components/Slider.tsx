@@ -1,5 +1,7 @@
+import React from 'react';
 import { useState } from "react";
 import { motion } from "framer-motion";
+
 const CoolSlider = () => {
 
     const [currentSlide, setCurrentSlide] = useState(2);

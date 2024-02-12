@@ -1,5 +1,8 @@
+import React from 'react';
 import {motion} from 'framer-motion'
 import Animation3D from './Animation3D'
+
+
 const Hello = () => {
 
   return (
