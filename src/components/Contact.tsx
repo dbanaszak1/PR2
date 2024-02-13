@@ -17,7 +17,7 @@ const Contact = () => {
             <p className="text-gray-600 text-xl">530 668 723</p>
         </div>
       </div>
-      <div className='md:w-2/3 flex justify-center'>
+      <div className='lg:w-2/3 flex justify-center'>
         <MailToForm/>
       </div>
     </div>
