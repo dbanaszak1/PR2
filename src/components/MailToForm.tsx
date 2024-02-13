@@ -60,11 +60,8 @@ const MailToForm = () => {
             viewport={{ once: true, amount: 0.8 }}>
         </motion.textarea>
         <motion.button 
-        className="w-full lg:w-[500px] border-black border-[1px] m-4 rounded-md px-4 py-2 hover:bg-black hover:text-white duration-500 text-xl" 
+        className="w-[300px] lg:w-[500px] border-black border-[1px] m-4 rounded-md px-4 py-2 hover:bg-black hover:text-white duration-500 text-xl" 
         type="submit"
-        initial={{y: 100}}
-        whileInView={{y: 0,transition: {type: "spring",bounce: 0.5,duration: 0.8, delay: 0.3}}}
-        viewport={{ once: true, amount: 0.8 }}
         >
             Send
         </motion.button>
