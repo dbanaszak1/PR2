@@ -20,7 +20,6 @@ const App = () => {
 
   return (
     <>
-    <Hello/>
     <motion.section className='py-20' ref={ref2} style={{background: isInView2 ? 'white' : 'black', transition: '4s background'}}>
       <AboutMe/>
       <Stack/>

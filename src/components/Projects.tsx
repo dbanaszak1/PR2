@@ -7,24 +7,24 @@ const Projects = () => {
     const project = [
       {
         title: 'RentMe',
-        description: 'Car Rental fullstack app. NodeJS backend, React-typescript frontend, mySQL database, JWT cookie authentication, clean design and responsive due to use of Tailwind.',
+        description: 'Car Rental fullstack app. NodeJS backend, React-typescript frontend, mySQL database, JWT cookie authentication, clean design and responsive due to use of Tailwind.  The app allows users to create, delete, and edit their accounts. They can book a car using a calendar date picker and view the list of available dates. Users can also search for cars on the website and view their current and past reservations. Additionally, there is a web admin panel with CRUD operations for cars and users.',
         stack: [icons.node, icons.express, icons.react, icons.tailwind, icons.ts, icons.mysql,  icons.restapi, icons.github],
-        image1: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/rentme1.png?raw=true',
-        image2: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/renrme2.png?raw=true',
+        image1: 'images/rentme1.webp',
+        image2: 'images/rentmecolage.webp',
       },
       {
         title: 'CatDetector', 
         description: 'Is it a cat? AI powered application - Pytroch, Python-Flask backend, React-typescript frontend, REST API, Tailwind, Github. App is able to detect if the image contains a cat also it can tell the breed of the cat.',
         stack: [icons.python , icons.react, icons.tailwind, icons.ts, icons.restapi, icons.github],
-        image1: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/catapp1.png?raw=true',
-        image2: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/code.png?raw=true',
+        image1: 'images/catapp1.webp',
+        image2: 'images/code.webp',
       },
       {
         title: 'SkyTravel',
         description: 'Only frontend for "fake" travel agency. RTT - React-Typescript-Tailwind.',
         stack: [ icons.react,icons.tailwind, icons.ts, icons.github],
-        image1: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/skytravel1.png?raw=true',
-        image2: 'https://github.com/dbanaszak1/PR2/blob/master/public/images/skytravel2.png?raw=true',
+        image1: 'images/skytravel1.webp',
+        image2: 'images/skytravel2.webp',
       }]  
   
     return (
