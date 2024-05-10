@@ -14,14 +14,14 @@ const Projects = () => {
       },
       {
         title: 'CatDetector', 
-        description: 'Is it a cat? AI powered application - Pytroch, Python-Flask backend, React-typescript frontend, REST API, Tailwind, Github. App is able to detect if the image contains a cat also it can tell the breed of the cat.',
+        description: `"Is it a cat?" AI powered application - Pytroch (dynamic deep learning library that allows to create advanced neural network models), Python-Flask backend, React-Typescript-Tailwind frontend, REST API, Github. App is able to detect if the image contains a cat also the application can estimate the percentage of the cat's breed.`,
         stack: [icons.python , icons.react, icons.tailwind, icons.ts, icons.restapi, icons.github],
         image1: 'images/catapp1.webp',
         image2: 'images/code.webp',
       },
       {
         title: 'SkyTravel',
-        description: 'Only frontend for "fake" travel agency. RTT - React-Typescript-Tailwind.',
+        description: 'One of my first projects containing a sample of my ReactJS and design skills. Created with RTT - React-Typescript-Tailwind.',
         stack: [ icons.react,icons.tailwind, icons.ts, icons.github],
         image1: 'images/skytravel1.webp',
         image2: 'images/skytravel2.webp',
@@ -37,7 +37,7 @@ const Projects = () => {
             whileInView={{opacity:1, x:'0'}}
             transition={{duration:1.5}}
             viewport={{ once: true }}
-            className='relative h-[760px] my-10'
+            className='relative  md:h-[900px] my-10'
             > 
                 <div className='py-4 text-white'>
                     <h2 className='font-alkatra text-3xl bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent'>{project.title}</h2>
@@ -61,7 +61,7 @@ const Projects = () => {
                   </div>
                 <img src='images/mac1.png' className='hidden md:block absolute  md:w-[806px] md:h-[420px] z-20 md:-translate-x-[104px] md:translate-y-52'/>    
                 <div className="w-full h-48 md:w-[600px] md:h-[320px] bg-cover z-10 my-6 md:absolute md:translate-y-[216px] rounded-xl shadow-2xl md:shadow-none md:rounded-none shadow-purple-400" style={{backgroundImage: `url(${project.image1})`}}></div>
-                <div className="w-full shadow-2xl shadow-purple-400 h-48 md:w-[600px] md:h-[320px] md:translate-x-60 md:-translate-y- bg-cover absolute border-[1px] border-gray-400 rounded-xl" style={{backgroundImage: `url(${project.image2})`}}></div> 
+                <div className="w-full shadow-2xl shadow-purple-400 h-48 md:w-[600px] md:h-[320px] md:translate-x-60 md:-translate-y- bg-cover md:absolute border-[1px] border-gray-400 rounded-xl" style={{backgroundImage: `url(${project.image2})`}}></div> 
             </motion.div>
         ))}
         <div className="w-full text-white font-alkatra text-center flex-row"><span className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">Code</span> of those apps you can find as a repos here 
