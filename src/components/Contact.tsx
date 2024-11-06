@@ -13,8 +13,6 @@ const Contact = () => {
             <p className="text-gray-600 text-xl">dominikbanaszak530@gmail.com</p>
             <p>Location:</p>
             <p className="text-gray-600 text-xl">Poznań, Poland</p>
-            <p>Phone:</p>
-            <p className="text-gray-600 text-xl">530 668 723</p>
         </div>
       </div>
       <div className='lg:w-2/3 flex justify-center'>

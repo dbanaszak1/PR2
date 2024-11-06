@@ -8,6 +8,7 @@ import { useEffect, useRef } from 'react'
 import Hello from './components/Hello'
 import Contact from './components/Contact'
 import Expect from './components/Expect'
+import FirstView from './components/FirstView';
 
 
 const App = () => {
@@ -20,6 +21,9 @@ const App = () => {
 
   return (
     <>
+    <motion.section>
+      <FirstView/>
+    </motion.section>
     <motion.section className='py-20' ref={ref2} style={{background: isInView2 ? 'white' : 'black', transition: '4s background'}}>
       <AboutMe/>
       <Stack/>

@@ -4,12 +4,16 @@ import icons from './SvgIcons'
 
 const tech = [
     {
-        name: "TailwindCSS",
-        svg: icons.tailwind
-    },      
+      name: "TypeScript",
+      svg: icons.ts
+    }, 
     {
-        name: "Boostrap",
-        svg: icons.bootstrap
+      name: "Python",
+      svg: icons.python
+    },     
+    {
+        name: "SQL",
+        svg: icons.sql2
     },      
     {
         name: "ReactJS",
@@ -20,13 +24,9 @@ const tech = [
       svg: icons.next
     },      
     {
-      name: "VueJS",
-      svg: icons.vue
-    },      
-    {
-      name: "TypeScript",
-      svg: icons.ts
-    },    
+      name: "Flask",
+      svg: icons.flask
+    },         
     {
       name: "RestApi",
       svg: icons.restapi
@@ -42,39 +42,15 @@ const tech = [
     {
       name: "NodeJS",
       svg: icons.node
-    },      
+    }, 
     {
-      name: "Python",
-      svg: icons.python
-    },
-    {
-      name: "HTML5",
-      svg: icons.html
-    },
-    {
-      name: "CSS3",
-      svg: icons.css
-    },            
+      name: "TailwindCSS",
+      svg: icons.tailwind
+    },                 
     {
         name: "Github",
         svg: icons.github
-    },
-    {
-      name: "Docker",
-      svg: icons.docker
-    },
-    {
-      name: "VSCode",
-      svg: icons.vscode
-    },    
-    {
-      name: "Canva",
-      svg: icons.canva
-    },    
-    {
-      name: "Gimp",
-      svg: icons.gimp
-    },
+    }
 ]
 const Tech = () => {
 
@@ -86,7 +62,7 @@ const Tech = () => {
     transition={{duration:1.5}}
     viewport={{ once: true }}
         className='max-w-[940px] m-auto flex flex-wrap items-center justify-center mb-12 mt-10'>
-    <h1 className='w-5/6 lg:w-full font-alkatra text-black text-2xl lg:text-4xl py-4'>Uses:</h1>
+    <h1 className='w-5/6 lg:w-full font-alkatra text-black text-2xl lg:text-4xl py-4'>Stack:</h1>
     {tech.map((tech, index)=>(
         <motion.div 
           key={index} 
