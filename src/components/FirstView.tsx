@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { easeIn, easeInOut, easeOut, motion, useAnimation } from 'framer-motion';
+import icons from './SvgIcons';
 
 const FirstView = () => {
   // Controlers for animations
@@ -13,7 +14,7 @@ const FirstView = () => {
     // Animation for text
     const sequence = async () => {
       // Animate - go top
-      await controls.start({ y: "-70vh", transition: { duration: 1.5, delay: 1, ease: easeOut } });
+      await controls.start({ y: "-70vh", transition: { duration: 1.5, delay: 1, ease: easeInOut } });
       
       // Animate - go right, switch bg to image and calculate bg position
       await controls.start({ x: "25vw",
@@ -47,13 +48,12 @@ const FirstView = () => {
 
 
   return (
-    <motion.div className='w-full h-screen flex relatie place-content-end max-w-[100vw]'
-      style={{ overflow: 'hidden' }}
+    <motion.div className='w-full h-screen flex relatie place-content-end max-w-[100vw] overflow-hidden'
       transition={{ delay: 4, ease: easeIn }}
     >
       {/* Image background */}
       <motion.div
-        className='h-[100vh] w-full overflow-hidden bg-cover absolute z-0'
+        className='h-[100vh] w-full overflow-hidden absolute z-0 bg-cover bg-fixed'
         style={{ backgroundImage: `url(./images/bg-hq.png)` }}
       >
       </motion.div>
@@ -79,16 +79,27 @@ const FirstView = () => {
 
       {/* Text */}
       <motion.div
-          className='absolute w-full h-full translate-x-[-50%] left-[50%] text-[120px] font-blackops bg-cover text-transparent bg-clip-text bg-white z-20 text-center items-center overflow-hidden'
+          className='absolute w-[45%] h-full translate-x-[-50%] left-[50%] text-[40px] md:text-[120px] text-ve font-blackops text-transparent bg-clip-text bg-white z-20 text-center items-center overflow-hidden'
           initial={{ translateY: "100vh", translateX: "-50%" }}
           animate={controls}
           viewport={{ once: true }}
+          style={{ 
+            backgroundPosition: "right",
+           }}
           >
           HELLO
           <div
           >
-            WORLD
+            THERE
           </div>
+      </motion.div>
+      <motion.div 
+        className='w-[50px] h-[50px] rounded-full absolute border-[1px] border-white left-[48.7%] translate-x-[-65%] bottom-10 z-30 text-white animate-bounce cursor-pointer'
+        onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+        initial = {{ opacity: 0 }}
+        animate = {controlsWorld}
+        >
+        {icons.chevron_down}
       </motion.div>
 
 </motion.div>

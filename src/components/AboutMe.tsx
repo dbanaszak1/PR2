@@ -22,10 +22,10 @@ const AboutMe = () => {
       <span className='relative z-20 '>Hello I am Dominik</span>
       <div className='absolute -skew-x-[12deg] bg-blue-500 h-[12px] w-[133px] top-6 left-36 translate-x-[15px] before:absolute before:-skew-x-[12deg] before:bg-blue-500 before:h-[12px] before:w-32 before:top-0 before:left-0'></div>
     </div>
-    <span className='font-alkatra text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Creative Student - Python dev</span>
+    <span className='font-alkatra text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Student - Python dev - Web dev</span>
     <div className='text-gray-400 lg:w-2/3'>
       <p>
-      Currently studying Computer Science at Adam Mickiewicz University, I actively gain practical experience both on campus and as a freelancer. With over a year of freelancing, I've honed my creativity, fast-learning ability, and effective teamwork. Eager to contribute to innovative projects in the field.
+      Currently working... , studying Computer Science at Adam Mickiewicz University and freelancing. Eager to contribute to innovative projects in the field.
       </p>
     </div>
     <div className='flex my-4'>

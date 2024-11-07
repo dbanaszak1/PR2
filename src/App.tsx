@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <>
-    <motion.section className='w-full max-w-[100vw] overflow-clip'>
+    <motion.section className='w-full max-w-[100vw] overflow-hidden'>
       <FirstView/>
     </motion.section>
     <motion.section className='py-20' ref={ref2} style={{background: isInView2 ? 'white' : 'black', transition: '4s background'}}>
